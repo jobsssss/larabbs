@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+
+.nav-top-books-new{
+    position: relative;
+    height: 50px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+.nav-books-new{
+    width:80vw;
+    padding:0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    background-color: #9664D5;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-books-left-new{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-books-header-1{
+
+    font-size: 18px;
+    color: white;
+    margin-left: -12px;
+
+}
+.detail-back-new-a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 13px;
+
+}
+.global-back-icon{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.books-list-new{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+}
+.books-list-item-new{
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+/**/
+.books-list-item-cover{
+    width: 12vw;
+    height:16.8vw;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.books-list-item-new:hover{
+    webkit-filter: blur(1px);
+    filter: blur(1px);
+    box-shadow: #333 0px 0px 8px;
+
+}
+.books-list-item-info-new{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 8px;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 70px;
+
+}
+
+.books-list-item-info-update{
+    padding-top: 4px;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.5);
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.books-list-item-info-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+
+
+}
+.books-list-item-info-cps{
+    color: #08ff08;
+    padding: 2px;
+    width:30%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: right;
+
+}
+.books-list-item-info-type{
+    color: #08ff08;
+    width: 65%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+#theend{
+    display: none;
+}
+
+
+@media (max-width: 568px){
+
+    .books-list-item-cover{
+        width: 48vw;
+        height:66vw;
+        display: block;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .nav-books-new{
+
+        border-radius: 0px 0px 0px 0px;
+    }
+    .nav-books-new{
+        width: 100vw;
+        padding: 0px;
+    }
+    .detail-back-new-a{
+        padding: 13px;
+    }
+
+
+}
